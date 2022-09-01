@@ -13,7 +13,6 @@ function WebCamRecorder() {
     async function prepareStream(){
 
       async function prepareStream(){
-
         function gotStream(stream: MediaStream) {
           streamRef.current = stream;
           if(videoRef.current){
